@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E996C21D-5757-4438-A2BC-95644E4337E5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PlaEng</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1E4E012D6554ADEE548BF6B73333A80DB0FFA38F</key>
+		<string>https://github.com/RyanKim01/PlaEng.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PlaEng.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1E4E012D6554ADEE548BF6B73333A80DB0FFA38F</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/RyanKim01/PlaEng.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1E4E012D6554ADEE548BF6B73333A80DB0FFA38F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1E4E012D6554ADEE548BF6B73333A80DB0FFA38F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PlaEng</string>
+		</dict>
+	</array>
+</dict>
+</plist>

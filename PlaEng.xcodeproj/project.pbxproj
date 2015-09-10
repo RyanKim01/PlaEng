@@ -30,6 +30,15 @@
 		27F11C501BA084F500A84025 /* TipInCellAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11C4F1BA084F500A84025 /* TipInCellAnimator.swift */; };
 		27F11C671BA08C9F00A84025 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11C661BA08C9F00A84025 /* CardCell.swift */; };
 		27F11C731BA0976E00A84025 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11C721BA0976E00A84025 /* Chapter.swift */; };
+		27F11CAA1BA1625200A84025 /* BackgroundAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11CA41BA1625200A84025 /* BackgroundAnimationViewController.swift */; };
+		27F11CAB1BA1625200A84025 /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11CA51BA1625200A84025 /* CustomKolodaView.swift */; };
+		27F11CAC1BA1625200A84025 /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11CA61BA1625200A84025 /* CustomOverlayView.swift */; };
+		27F11CAD1BA1625200A84025 /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F11CA71BA1625200A84025 /* CustomOverlayView.xib */; };
+		27F11CBC1BA1906C00A84025 /* Vocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11CBB1BA1906C00A84025 /* Vocab.swift */; };
+		27F11CBE1BA1C14900A84025 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F11CBD1BA1C14900A84025 /* AVFoundation.framework */; };
+		27F11CC21BA1DCFF00A84025 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F11CBF1BA1DCFF00A84025 /* back.png */; };
+		27F11CC31BA1DCFF00A84025 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F11CC01BA1DCFF00A84025 /* back@2x.png */; };
+		27F11CC41BA1DCFF00A84025 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F11CC11BA1DCFF00A84025 /* back@3x.png */; };
 		E640D00E851854AED840EC5D /* Pods_PlaEng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A0D982CB88DD4C4FA9A876 /* Pods_PlaEng.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -73,6 +82,15 @@
 		27F11C4F1BA084F500A84025 /* TipInCellAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipInCellAnimator.swift; sourceTree = "<group>"; };
 		27F11C661BA08C9F00A84025 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardCell.swift; path = ../ViewController/CardCell.swift; sourceTree = "<group>"; };
 		27F11C721BA0976E00A84025 /* Chapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		27F11CA41BA1625200A84025 /* BackgroundAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundAnimationViewController.swift; sourceTree = "<group>"; };
+		27F11CA51BA1625200A84025 /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
+		27F11CA61BA1625200A84025 /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		27F11CA71BA1625200A84025 /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
+		27F11CBB1BA1906C00A84025 /* Vocab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vocab.swift; sourceTree = "<group>"; };
+		27F11CBD1BA1C14900A84025 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		27F11CBF1BA1DCFF00A84025 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = "../vocab 예시/back.png"; sourceTree = "<group>"; };
+		27F11CC01BA1DCFF00A84025 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back@2x.png"; path = "../vocab 예시/back@2x.png"; sourceTree = "<group>"; };
+		27F11CC11BA1DCFF00A84025 /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back@3x.png"; path = "../vocab 예시/back@3x.png"; sourceTree = "<group>"; };
 		39741412957F8EDF52F0E39A /* Pods-PlaEng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaEng.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlaEng/Pods-PlaEng.debug.xcconfig"; sourceTree = "<group>"; };
 		FD084EAE9CFE54DCE9339B54 /* Pods-PlaEng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaEng.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlaEng/Pods-PlaEng.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F11CBE1BA1C14900A84025 /* AVFoundation.framework in Frameworks */,
 				27F11C171BA0773D00A84025 /* MediaPlayer.framework in Frameworks */,
 				27F11C151BA0773500A84025 /* QuartzCore.framework in Frameworks */,
 				27F11C131BA0772C00A84025 /* AudioToolbox.framework in Frameworks */,
@@ -144,11 +163,15 @@
 				27F11C511BA08BC100A84025 /* Data */,
 				27F11C711BA0973300A84025 /* Models */,
 				27F11C211BA079FC00A84025 /* ViewController */,
+				27F11CA31BA1622300A84025 /* Card Effect */,
 				27F11C4E1BA084C300A84025 /* Helper */,
 				27F11BCB1BA070CE00A84025 /* AppDelegate.swift */,
 				27F11BCF1BA070CE00A84025 /* Main.storyboard */,
 				27F11BD21BA070CE00A84025 /* Images.xcassets */,
 				27F11BD41BA070CE00A84025 /* LaunchScreen.xib */,
+				27F11CBF1BA1DCFF00A84025 /* back.png */,
+				27F11CC01BA1DCFF00A84025 /* back@2x.png */,
+				27F11CC11BA1DCFF00A84025 /* back@3x.png */,
 				27F11BC91BA070CE00A84025 /* Supporting Files */,
 			);
 			path = PlaEng;
@@ -209,13 +232,26 @@
 			isa = PBXGroup;
 			children = (
 				27F11C721BA0976E00A84025 /* Chapter.swift */,
+				27F11CBB1BA1906C00A84025 /* Vocab.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		27F11CA31BA1622300A84025 /* Card Effect */ = {
+			isa = PBXGroup;
+			children = (
+				27F11CA41BA1625200A84025 /* BackgroundAnimationViewController.swift */,
+				27F11CA51BA1625200A84025 /* CustomKolodaView.swift */,
+				27F11CA61BA1625200A84025 /* CustomOverlayView.swift */,
+				27F11CA71BA1625200A84025 /* CustomOverlayView.xib */,
+			);
+			path = "Card Effect";
 			sourceTree = "<group>";
 		};
 		421F836B5EE3AF0B8A12244E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27F11CBD1BA1C14900A84025 /* AVFoundation.framework */,
 				27F11C161BA0773D00A84025 /* MediaPlayer.framework */,
 				27F11C141BA0773500A84025 /* QuartzCore.framework */,
 				27F11C121BA0772C00A84025 /* AudioToolbox.framework */,
@@ -317,8 +353,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				27F11BD11BA070CE00A84025 /* Main.storyboard in Resources */,
+				27F11CC21BA1DCFF00A84025 /* back.png in Resources */,
 				27F11BD61BA070CE00A84025 /* LaunchScreen.xib in Resources */,
+				27F11CAD1BA1625200A84025 /* CustomOverlayView.xib in Resources */,
+				27F11CC41BA1DCFF00A84025 /* back@3x.png in Resources */,
 				27F11BD31BA070CE00A84025 /* Images.xcassets in Resources */,
+				27F11CC31BA1DCFF00A84025 /* back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,11 +424,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F11CAA1BA1625200A84025 /* BackgroundAnimationViewController.swift in Sources */,
+				27F11CBC1BA1906C00A84025 /* Vocab.swift in Sources */,
 				27F11C491BA07BDE00A84025 /* CustomLoginViewController.swift in Sources */,
 				27F11C4D1BA07C1600A84025 /* StudentVocabPageViewController.swift in Sources */,
+				27F11CAB1BA1625200A84025 /* CustomKolodaView.swift in Sources */,
 				27F11C501BA084F500A84025 /* TipInCellAnimator.swift in Sources */,
 				27F11C4B1BA07BF300A84025 /* CustomSignupViewController.swift in Sources */,
 				27F11BCC1BA070CE00A84025 /* AppDelegate.swift in Sources */,
+				27F11CAC1BA1625200A84025 /* CustomOverlayView.swift in Sources */,
 				27F11C671BA08C9F00A84025 /* CardCell.swift in Sources */,
 				27F11C731BA0976E00A84025 /* Chapter.swift in Sources */,
 			);

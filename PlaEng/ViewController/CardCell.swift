@@ -14,6 +14,7 @@ class CardCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var mainView: UIView!
+    @IBOutlet weak var progressLabel: UILabel!
 
     var chapter: Chapter? {
         didSet {

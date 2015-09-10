@@ -24,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         PFACL.setDefaultACL(acl, withAccessForCurrentUser: true)
         
         Chapter.registerSubclass()
+        Vocab.registerSubclass()
         
         PFUser.logInWithUsername("test", password: "test")
         
@@ -33,6 +34,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             println("No logged in user :(")
         }
         
+        UINavigationBar.appearance().tintColor = UIColor(red:1.00, green:1.00, blue:1.00, alpha:1.0)
+        UINavigationBar.appearance().barTintColor = UIColor(red: 0.506, green: 0.831, blue: 0.98, alpha: 1)
+        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: UIFont(name: "Helvetica Neue", size: 20)!, NSForegroundColorAttributeName: UIColor.whiteColor()]
+        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
         return true
     }
     

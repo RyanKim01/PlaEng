@@ -15,6 +15,8 @@ class Chapter : PFObject, PFSubclassing {
     // 2
     @NSManaged var imageFile: PFFile?
     @NSManaged var videoName: String?
+    @NSManaged var progress: String
+    @NSManaged var descriptionForVideo: String
     
     
     //MARK: PFSubclassing Protocol

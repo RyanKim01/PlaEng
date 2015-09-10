@@ -8,11 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		27F11BCC1BA070CE00A84025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11BCB1BA070CE00A84025 /* AppDelegate.swift */; };
-		27F11BCE1BA070CE00A84025 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11BCD1BA070CE00A84025 /* ViewController.swift */; };
 		27F11BD11BA070CE00A84025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F11BCF1BA070CE00A84025 /* Main.storyboard */; };
 		27F11BD31BA070CE00A84025 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F11BD21BA070CE00A84025 /* Images.xcassets */; };
 		27F11BD61BA070CE00A84025 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F11BD41BA070CE00A84025 /* LaunchScreen.xib */; };
 		27F11BE21BA070CE00A84025 /* PlaEngTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11BE11BA070CE00A84025 /* PlaEngTests.swift */; };
+		27F11C011BA076DA00A84025 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F11C001BA076DA00A84025 /* Social.framework */; };
+		27F11C031BA076DF00A84025 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F11C021BA076DF00A84025 /* Accounts.framework */; };
+		27F11C051BA076ED00A84025 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F11C041BA076ED00A84025 /* libsqlite3.dylib */; };
+		27F11C071BA076F400A84025 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F11C061BA076F400A84025 /* libz.dylib */; };
+		27F11C091BA0770200A84025 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F11C081BA0770200A84025 /* SystemConfiguration.framework */; };
+		27F11C0B1BA0770B00A84025 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F11C0A1BA0770B00A84025 /* StoreKit.framework */; };
+		27F11C0D1BA0771100A84025 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F11C0C1BA0771100A84025 /* Security.framework */; };
+		27F11C0F1BA0771800A84025 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F11C0E1BA0771800A84025 /* CoreGraphics.framework */; };
+		27F11C111BA0772700A84025 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F11C101BA0772700A84025 /* MessageUI.framework */; };
+		27F11C131BA0772C00A84025 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F11C121BA0772C00A84025 /* AudioToolbox.framework */; };
+		27F11C151BA0773500A84025 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F11C141BA0773500A84025 /* QuartzCore.framework */; };
+		27F11C171BA0773D00A84025 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F11C161BA0773D00A84025 /* MediaPlayer.framework */; };
+		27F11C491BA07BDE00A84025 /* CustomLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11C481BA07BDE00A84025 /* CustomLoginViewController.swift */; };
+		27F11C4B1BA07BF300A84025 /* CustomSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11C4A1BA07BF300A84025 /* CustomSignupViewController.swift */; };
+		27F11C4D1BA07C1600A84025 /* StudentVocabPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11C4C1BA07C1600A84025 /* StudentVocabPageViewController.swift */; };
+		27F11C501BA084F500A84025 /* TipInCellAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11C4F1BA084F500A84025 /* TipInCellAnimator.swift */; };
+		27F11C671BA08C9F00A84025 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11C661BA08C9F00A84025 /* CardCell.swift */; };
+		27F11C731BA0976E00A84025 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F11C721BA0976E00A84025 /* Chapter.swift */; };
+		E640D00E851854AED840EC5D /* Pods_PlaEng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A0D982CB88DD4C4FA9A876 /* Pods_PlaEng.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +44,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06A0D982CB88DD4C4FA9A876 /* Pods_PlaEng.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaEng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F11BC61BA070CE00A84025 /* PlaEng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaEng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F11BCA1BA070CE00A84025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27F11BCB1BA070CE00A84025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27F11BCD1BA070CE00A84025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27F11BD01BA070CE00A84025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27F11BD21BA070CE00A84025 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27F11BD51BA070CE00A84025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		27F11BDB1BA070CE00A84025 /* PlaEngTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaEngTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F11BE01BA070CE00A84025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27F11BE11BA070CE00A84025 /* PlaEngTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaEngTests.swift; sourceTree = "<group>"; };
+		27F11BEB1BA070F900A84025 /* PlaEng-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlaEng-Bridging-Header.h"; sourceTree = "<group>"; };
+		27F11C001BA076DA00A84025 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		27F11C021BA076DF00A84025 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		27F11C041BA076ED00A84025 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		27F11C061BA076F400A84025 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		27F11C081BA0770200A84025 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		27F11C0A1BA0770B00A84025 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		27F11C0C1BA0771100A84025 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		27F11C0E1BA0771800A84025 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27F11C101BA0772700A84025 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		27F11C121BA0772C00A84025 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		27F11C141BA0773500A84025 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		27F11C161BA0773D00A84025 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		27F11C481BA07BDE00A84025 /* CustomLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLoginViewController.swift; sourceTree = "<group>"; };
+		27F11C4A1BA07BF300A84025 /* CustomSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSignupViewController.swift; sourceTree = "<group>"; };
+		27F11C4C1BA07C1600A84025 /* StudentVocabPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentVocabPageViewController.swift; sourceTree = "<group>"; };
+		27F11C4F1BA084F500A84025 /* TipInCellAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipInCellAnimator.swift; sourceTree = "<group>"; };
+		27F11C661BA08C9F00A84025 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardCell.swift; path = ../ViewController/CardCell.swift; sourceTree = "<group>"; };
+		27F11C721BA0976E00A84025 /* Chapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		39741412957F8EDF52F0E39A /* Pods-PlaEng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaEng.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlaEng/Pods-PlaEng.debug.xcconfig"; sourceTree = "<group>"; };
+		FD084EAE9CFE54DCE9339B54 /* Pods-PlaEng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaEng.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlaEng/Pods-PlaEng.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +82,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F11C171BA0773D00A84025 /* MediaPlayer.framework in Frameworks */,
+				27F11C151BA0773500A84025 /* QuartzCore.framework in Frameworks */,
+				27F11C131BA0772C00A84025 /* AudioToolbox.framework in Frameworks */,
+				27F11C111BA0772700A84025 /* MessageUI.framework in Frameworks */,
+				27F11C0F1BA0771800A84025 /* CoreGraphics.framework in Frameworks */,
+				27F11C0D1BA0771100A84025 /* Security.framework in Frameworks */,
+				27F11C0B1BA0770B00A84025 /* StoreKit.framework in Frameworks */,
+				27F11C091BA0770200A84025 /* SystemConfiguration.framework in Frameworks */,
+				27F11C071BA076F400A84025 /* libz.dylib in Frameworks */,
+				27F11C051BA076ED00A84025 /* libsqlite3.dylib in Frameworks */,
+				27F11C031BA076DF00A84025 /* Accounts.framework in Frameworks */,
+				27F11C011BA076DA00A84025 /* Social.framework in Frameworks */,
+				E640D00E851854AED840EC5D /* Pods_PlaEng.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +108,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2373D557501F926E7A53FA4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39741412957F8EDF52F0E39A /* Pods-PlaEng.debug.xcconfig */,
+				FD084EAE9CFE54DCE9339B54 /* Pods-PlaEng.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		27F11BBD1BA070CE00A84025 = {
 			isa = PBXGroup;
 			children = (
 				27F11BC81BA070CE00A84025 /* PlaEng */,
 				27F11BDE1BA070CE00A84025 /* PlaEngTests */,
 				27F11BC71BA070CE00A84025 /* Products */,
+				27F11BEB1BA070F900A84025 /* PlaEng-Bridging-Header.h */,
+				2373D557501F926E7A53FA4A /* Pods */,
+				421F836B5EE3AF0B8A12244E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +141,11 @@
 		27F11BC81BA070CE00A84025 /* PlaEng */ = {
 			isa = PBXGroup;
 			children = (
+				27F11C511BA08BC100A84025 /* Data */,
+				27F11C711BA0973300A84025 /* Models */,
+				27F11C211BA079FC00A84025 /* ViewController */,
+				27F11C4E1BA084C300A84025 /* Helper */,
 				27F11BCB1BA070CE00A84025 /* AppDelegate.swift */,
-				27F11BCD1BA070CE00A84025 /* ViewController.swift */,
 				27F11BCF1BA070CE00A84025 /* Main.storyboard */,
 				27F11BD21BA070CE00A84025 /* Images.xcassets */,
 				27F11BD41BA070CE00A84025 /* LaunchScreen.xib */,
@@ -112,6 +179,60 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		27F11C211BA079FC00A84025 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27F11C481BA07BDE00A84025 /* CustomLoginViewController.swift */,
+				27F11C4A1BA07BF300A84025 /* CustomSignupViewController.swift */,
+				27F11C4C1BA07C1600A84025 /* StudentVocabPageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		27F11C4E1BA084C300A84025 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				27F11C4F1BA084F500A84025 /* TipInCellAnimator.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		27F11C511BA08BC100A84025 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				27F11C661BA08C9F00A84025 /* CardCell.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		27F11C711BA0973300A84025 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27F11C721BA0976E00A84025 /* Chapter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		421F836B5EE3AF0B8A12244E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27F11C161BA0773D00A84025 /* MediaPlayer.framework */,
+				27F11C141BA0773500A84025 /* QuartzCore.framework */,
+				27F11C121BA0772C00A84025 /* AudioToolbox.framework */,
+				27F11C101BA0772700A84025 /* MessageUI.framework */,
+				27F11C0E1BA0771800A84025 /* CoreGraphics.framework */,
+				27F11C0C1BA0771100A84025 /* Security.framework */,
+				27F11C0A1BA0770B00A84025 /* StoreKit.framework */,
+				27F11C081BA0770200A84025 /* SystemConfiguration.framework */,
+				27F11C061BA076F400A84025 /* libz.dylib */,
+				27F11C041BA076ED00A84025 /* libsqlite3.dylib */,
+				27F11C021BA076DF00A84025 /* Accounts.framework */,
+				27F11C001BA076DA00A84025 /* Social.framework */,
+				06A0D982CB88DD4C4FA9A876 /* Pods_PlaEng.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27F11BE51BA070CE00A84025 /* Build configuration list for PBXNativeTarget "PlaEng" */;
 			buildPhases = (
+				227E8A5AFEA44A0F05676704 /* Check Pods Manifest.lock */,
 				27F11BC21BA070CE00A84025 /* Sources */,
 				27F11BC31BA070CE00A84025 /* Frameworks */,
 				27F11BC41BA070CE00A84025 /* Resources */,
+				E85811C89826293D87B0A674 /* Embed Pods Frameworks */,
+				3675D1869774A9574FDD232F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +331,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		227E8A5AFEA44A0F05676704 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3675D1869774A9574FDD232F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlaEng/Pods-PlaEng-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E85811C89826293D87B0A674 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlaEng/Pods-PlaEng-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27F11BC21BA070CE00A84025 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27F11BCE1BA070CE00A84025 /* ViewController.swift in Sources */,
+				27F11C491BA07BDE00A84025 /* CustomLoginViewController.swift in Sources */,
+				27F11C4D1BA07C1600A84025 /* StudentVocabPageViewController.swift in Sources */,
+				27F11C501BA084F500A84025 /* TipInCellAnimator.swift in Sources */,
+				27F11C4B1BA07BF300A84025 /* CustomSignupViewController.swift in Sources */,
 				27F11BCC1BA070CE00A84025 /* AppDelegate.swift in Sources */,
+				27F11C671BA08C9F00A84025 /* CardCell.swift in Sources */,
+				27F11C731BA0976E00A84025 /* Chapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,21 +517,30 @@
 		};
 		27F11BE61BA070CE00A84025 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39741412957F8EDF52F0E39A /* Pods-PlaEng.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PlaEng/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlaEng-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		27F11BE71BA070CE00A84025 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD084EAE9CFE54DCE9339B54 /* Pods-PlaEng.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PlaEng/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlaEng-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -411,6 +597,7 @@
 				27F11BE71BA070CE00A84025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27F11BE81BA070CE00A84025 /* Build configuration list for PBXNativeTarget "PlaEngTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +606,7 @@
 				27F11BEA1BA070CE00A84025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,27 @@
+PODS:
+  - Bolts/Tasks (1.2.1)
+  - Bond (3.10.0)
+  - Koloda (1.1.2):
+    - pop (~> 1.0)
+  - Parse (1.8.2):
+    - Bolts/Tasks (>= 1.2.1)
+  - ParseUI (1.1.5):
+    - Bolts/Tasks (~> 1.2)
+    - Parse (~> 1.8)
+  - pop (1.0.7)
+
+DEPENDENCIES:
+  - Bond
+  - Koloda
+  - Parse
+  - ParseUI
+
+SPEC CHECKSUMS:
+  Bolts: 7686a5cb204d1ac54cee26f12d9b7622db3f80d1
+  Bond: c873dba04a09dde9e422242420979aa8e4c9e133
+  Koloda: 19b54bfb56c3b9e4e946c750b1c3bc771298d7ca
+  Parse: 188601c6cd91fae55906badd283b513104a3a8c9
+  ParseUI: 2c53621ed028ee793f5ab92a551b099689265525
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+
+COCOAPODS: 0.37.2

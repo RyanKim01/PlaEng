@@ -85,11 +85,17 @@ class BackgroundAnimationViewController: UIViewController, KolodaViewDataSource,
     //MARK: KolodaViewDelegate
     
     func kolodaDidSwipedCardAtIndex(koloda: KolodaView, index: UInt, direction: SwipeResultDirection) {
+        if SwipeResultDirection.Right == direction {
+//        score = score + 8
+//        self.navigationItem.title = "\(score) Points"
+        }
     }
     
     func kolodaDidRunOutOfCards(koloda: KolodaView) {
         //Example: reloading
         kolodaView.resetCurrentCardNumber()
+        score = 0
+        self.navigationItem.title = "\(score) Points"
 
     }
     
